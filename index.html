@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>*Tu peso en otros planetas*</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>¿Cuál es tu peso en otros planetas?</h1>
+    <div class="container">
+        <img src="https://www.latercera.com/resizer/smlOnqTrhxToNx67ufpmzyN4VAg=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/6TRHCXPFTZEZTGU66QHQ6KUSLI.jpg">
+    </div>
     <div>
-    <p>¿Cuál es tu peso en otros planetas?</p>
-</div>
 <script>
-var usuario = prompt("¿Cuál es tu peso?");
+alert("Hola! Vamos a calcular tu peso en otros planetas...");
+var usuario = prompt("¿Cuál es tu peso en la Tierra?");
 var planeta = prompt("Elige tu Planeta:\n1 *Para Marte* \n2 *Para Júpiter*");
 var peso = parseInt(usuario);
 var tierra = 9.8;
@@ -34,8 +38,7 @@ document.write("Tu peso en Júpiter es: <strong> " + peso_final + " kilos</stron
 else {  
     document.write("<h1><strong>Ups... por ahora no tenemos otras opciones... elegí 1 o 2!</strongX</h1>");  
 }
-
-
 </script>
+</div>
 </body>
 </html>
